@@ -1,5 +1,9 @@
 #include "utils.h"
 
+int my_hot_fix1(){
+    return 4;
+}
+
 unsigned int charptr_to_unsigned_int_big_endian(char* c){
     unsigned int x;
     char* x_char = (char*) &x;
