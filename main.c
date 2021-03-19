@@ -11,6 +11,7 @@
 
 #define WHATSUCKS GITSUCKS_BIG_FUGKING_TIME
 #define HELLO
+#define STUFFFROM X240
 
 int find_in_argv(char* s, int argc, char** argv){
     for(int i = 2; i < argc; ++i)
