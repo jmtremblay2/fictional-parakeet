@@ -9,6 +9,8 @@
 
 #define BUFFER_SIZE 10000000
 
+#define WHATSUCKS GITSUCKS
+
 int find_in_argv(char* s, int argc, char** argv){
     for(int i = 2; i < argc; ++i)
         if( 0 == strcmp(s, argv[i])){
